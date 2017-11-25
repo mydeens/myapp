@@ -23,6 +23,7 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'rspec-rails'
   gem 'pg'
+  gem 'test-unit', '~> 3.0'
 end
 
 group :production do
