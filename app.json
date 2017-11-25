@@ -1,7 +1,6 @@
 {
   "name": "myapp",
   "scripts": {
-    "postdeploy": "rake db:migrate"
   },
   "env": {
   },
@@ -20,4 +19,3 @@
     }
   ]
 }
-
