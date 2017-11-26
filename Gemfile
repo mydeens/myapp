@@ -20,7 +20,13 @@ end
 
 gem 'jquery-rails'
 
-group :development, :test do
+group :development do
+  gem 'rspec-rails'
+  gem 'sqlite3'
+  gem 'test-unit', '~> 3.0'
+end
+
+group :test do
   gem 'rspec-rails'
   gem 'pg'
   gem 'test-unit', '~> 3.0'
